@@ -1,0 +1,7 @@
+local args = {
+    [1] = "ChangeGold",
+    [2] = math.huge,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.Gold.ChangeGoldRF:InvokeServer(unpack(args))
